@@ -74,7 +74,7 @@ module.exports = __webpack_require__(1);
 /* 1 */
 /***/ (function(module, exports) {
 
-console.log("hi there from webpack!");
+console.log("hello there from webpack!");
 
 
 /***/ })
