@@ -20,7 +20,7 @@ npm start
 ES6 stuff:
 ------------
 
-let = block scoped:
+let & const = block scoped:
 
 let limit = 200;
 {
