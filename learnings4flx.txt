@@ -5,6 +5,25 @@ felix js lernings by heart
 http://localhost:3000/essentials.html
 
 
-node init project
-
+node init project:
 npm init -y
+
+install:
+$ npm install babel-core babel-loader webpack-dev-server babel-preset-es2015 babel-polyfill -save-dev
+
+
+start npm server:
+npm start
+
+
+
+ES6 stuff:
+------------
+
+let = block scoped:
+
+let limit = 200;
+{
+    let limit= 23; // limit: 23
+}
+console.log(limit) // 200
