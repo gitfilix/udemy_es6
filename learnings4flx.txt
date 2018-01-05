@@ -3,3 +3,8 @@ felix js lernings by heart
 
 
 http://localhost:3000/essentials.html
+
+
+node init project
+
+npm init -y
