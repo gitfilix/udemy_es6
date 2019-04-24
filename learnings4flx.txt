@@ -23,7 +23,14 @@ ES6 stuff:
 let & const = block scoped:
 
 let limit = 200;
+
 {
-    let limit= 23; // limit: 23
+    let limit= 23; // block scoped
+    console.log(limit) // limit: 23
 }
 console.log(limit) // 200
+
+const is read-only! no re-declaration or re-assignement
+(updating data, like =' modify data. )
+BUT: you can modify the value of an array, add another value.
+with push or unshift methods
