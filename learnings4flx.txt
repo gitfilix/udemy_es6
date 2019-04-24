@@ -98,5 +98,22 @@ test on each of its element.
     console.log(highScores);
 
 
+
+
+string manipulation and number checking
+
+string.repeat() returns a new string of concatenaded copies.
+
+let feeling = "wooohh" + "oo".repeat(50);
+console.log(feeling);
+
+console.log("butterfly".startsWith("butter"));
+console.log("butterfly".endsWith("fly"));
+console.log("butterfly".includes("ter"));
+console.log("felix.adem@webkanal.ch".includes("@"));
+
+
+
+
 // es6 modules
 import and exports from other files..

@@ -1,16 +1,7 @@
-// map helper function
-let values = [20, 30, 44];
+let feeling = "wooohh" + "oo".repeat(50);
+console.log(feeling);
 
-let doubled = values.map((n) => {
-    return n*2;
-});
-
-console.log("doubled", doubled);
-
-
-let points = [7, 8, 65, 3, 13, 34, 32, 15, 34, 3];
-let highScores = points.filter((n) => {
-    return n > 20;
-});
-
-console.log(highScores);
+console.log("butterfly".startsWith("butter"));
+console.log("butterfly".endsWith("fly"));
+console.log("butterfly".includes("ter"));
+console.log("felix.adem@webkanal.ch".includes("@"));
