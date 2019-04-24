@@ -1,15 +1,16 @@
-// destructuring on arrays
-let animals = ['simba', 'sumsi', 'frank', 'penny'];
-let [dog, bird] = animals;
+// map helper function
+let values = [20, 30, 44];
 
-console.log(dog, bird);
+let doubled = values.map((n) => {
+    return n*2;
+});
 
-// destructuring assignements on objects
-let king = {
-    name: 'Lionbaby King',
-    kids: 2,
-    hobbies: 'hunting, lying arround'
-}
-let {name, hobbies} = king;
+console.log("doubled", doubled);
 
-console.log("from an object", name, hobbies);
+
+let points = [7, 8, 65, 3, 13, 34, 32, 15, 34, 3];
+let highScores = points.filter((n) => {
+    return n > 20;
+});
+
+console.log(highScores);

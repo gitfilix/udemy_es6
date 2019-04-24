@@ -50,17 +50,53 @@ collect(21, 3, 44, teamA);
 
 
 // Destructuring on arrays
-let animals = ['simba', 'sumsi', 'frank', 'penny'];
-let [dog, bird] = animals;
 
-console.log(dog, bird);
+    let animals = ['simba', 'sumsi', 'frank', 'penny'];
+    let [dog, bird] = animals;
+
+    console.log(dog, bird);
 
 // Destructuring assignements on objects
-let king = {
-    name: 'Lionbaby King',
-    kids: 2,
-    hobbies: 'hunting, lying arround'
-}
-let {name, hobbies} = king;
 
-console.log("from an object", name, hobbies);
+    let king = {
+        name: 'Lionbaby King',
+        kids: 2,
+        hobbies: 'hunting, lying arround'
+    }
+    let {name, hobbies} = king;
+
+    console.log("from an object", name, hobbies);
+
+
+
+
+// map methods
+
+the map method creates NEW arrays by calling a function on individual
+elements in an ORGINAL array.
+    // map helper function
+    let values = [20, 30, 44];
+
+    let doubled = values.map((n) => {
+        return n*2;
+    });
+
+    console.log("doubled", doubled);
+
+
+// filter method
+the filter method creates NEW arrays based on an original array around a certain
+test on each of its element.
+
+    // filter method return everything bigger than 20:
+    let points = [7, 8, 65, 3, 13, 34, 32, 15, 34, 3];
+
+    let highScores = points.filter((n) => {
+        return n > 20;
+    });
+
+    console.log(highScores);
+
+
+// es6 modules
+import and exports from other files..
