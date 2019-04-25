@@ -1,7 +1,9 @@
-let feeling = "wooohh" + "oo".repeat(50);
-console.log(feeling);
+import { fellowship, total } from './fellowship.js';
+import { add, multiply } from './math.js';
 
-console.log("butterfly".startsWith("butter"));
-console.log("butterfly".endsWith("fly"));
-console.log("butterfly".includes("ter"));
-console.log("felix.adem@webkanal.ch".includes("@"));
+console.log("multiply: ", multiply(50, 10));
+console.log("add: 5 +18 ", add(5, 18));
+
+
+console.log(fellowship);
+console.log("total:", total);
